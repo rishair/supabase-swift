@@ -41,6 +41,7 @@ let package = Package(
         .product(name: "HTTPTypes", package: "swift-http-types"),
         .product(name: "Clocks", package: "swift-clocks"),
         .product(name: "XCTestDynamicOverlay", package: "xctest-dynamic-overlay"),
+        .product(name: "IssueReporting",    package: "xctest-dynamic-overlay"),
       ]
     ),
     .testTarget(
